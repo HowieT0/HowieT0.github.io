@@ -1,0 +1,246 @@
+.overlay_title h4 {
+  text-align: right;
+  position: absolute;
+  font-family: Roboto, "Noto Sans TC", 微軟正黑體, 繁黑體, "Microsoft JhengHei", "Microsoft YaHei", "Heiti TC", "LiHei Pro", PMingLiU;
+  font-size: 65px;
+  color: white;
+  font-weight: 900;
+  top: 0;
+  padding: 50vh 20vh 0vh 30vh;
+  text-shadow: 2px 2px 30px black;
+}
+
+.overlay_title h6 {
+  text-align: right;
+  position: absolute;
+  font-family: Roboto, "Noto Sans TC", 微軟正黑體, 繁黑體, "Microsoft JhengHei", "Microsoft YaHei", "Heiti TC", "LiHei Pro", PMingLiU;
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+  top: 0;
+  padding: 65vh 0vh 0vh 55vh;
+  text-shadow: 2px 2px 20px black;
+}
+
+
+
+
+/* #openingvideo{
+    height: 700px;
+    background-image: url(/asset/openingvideo.mp4);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  header .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+   */ 
+  /* Media Query for devices withi coarse pointers and no hover functionality */
+  
+  /* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
+  
+  /* @media (pointer: coarse) and (hover: none) {
+    header {
+      background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    }
+  
+    header video {
+      display: none;
+    }
+  } */
+/* .video-container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    @media(min-width: 600px) {
+      height: 100vh;
+    }
+  }
+
+  video {
+    object-fit: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .video-container:after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(black, .2);
+    z-index: 1;
+  }
+  
+  h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin: 0 0 1rem;
+    padding: 0;
+    line-height: 1;
+    font-family: Futura, Helvetica, sans-serif;
+    font-size: 20vw;
+    @media (max-width: 400px) {
+      font-size: 22px;
+    }
+    @media (min-width: 1200px) {
+      font-size: 75px;
+    }
+  }
+
+  .callout {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+  } */
+
+#leading{
+    height: 700px;
+    background-image: url(/asset/night1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#page1{
+    height: 700px;
+    background-image: url(/asset/steerhigh.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+
+}
+
+
+#page2{
+    height: 700px;
+    background-image: url(/asset/steerhigh.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#page3{
+    height: 700px;
+    background-image: url(/asset/steet2.jpg);
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+/* transition */
+#page4{
+    height: 700px;
+    background-image: url(/asset/alley1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+#cut{
+  background-image: url(/asset/alley1.jpg);
+  filter: grayscale(90%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cut2{
+  background-image: url(/asset/alley1.jpg);
+  filter: grayscale(50%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#page5{
+    height: 700px;
+    background-image: url(/asset/alley1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page6{
+    height: 700px;
+    background-image: url(/asset/trainstation.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#page7{
+    height: 700px;
+    background-image: url(/asset/miao.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.srcf{
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: 650px;
+}
