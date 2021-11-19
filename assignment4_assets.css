@@ -7,64 +7,64 @@
 
 #pitty0{
     background-attachment: fixed;
-    background-image: url(./assignment_assets/pitty.jpg);
+    background-image: src(./assignment_assets/pitty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #pitty1{
     background-attachment: fixed;
-    background-image: url(./assignment_assets/pitty.jpg);
+    background-image: src(./assignment_assets/pitty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #pitty2{
     background-attachment: fixed;
-    background-image: url(./assignment_assets/pitty.jpg);
+    background-image: src(./assignment_assets/pitty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 #pitty3{
     background-attachment: fixed;
-    background-image: url(./assignment_assets/pitty.jpg);
+    background-image: src(./assignment_assets/pitty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #message1{
-    background-image: url(./assignment_assets/message.png);
+    background-image: src(./assignment_assets/message.png);
     /* background-size: cover; */
     background-repeat: no-repeat;
 }
 #message2{
-    background-image: url(./assignment_assets/message.png);
+    background-image: src(./assignment_assets/message.png);
     /* background-size: cover; */
     background-repeat: no-repeat;
 }
 
 #message3{
-    background-image: url(./assignment_assets/message1.png);
+    background-image: src(./assignment_assets/message1.png);
     background-repeat: no-repeat;
 }
 #message4{
-    background-image: url(./assignment_assets/message1.png);
+    background-image: src(./assignment_assets/message1.png);
     background-repeat: no-repeat;
 }
 #message5{
-    background-image: url(./assignment_assets/message.png);
+    background-image: src(./assignment_assets/message.png);
     background-repeat: no-repeat;
 }
 #message6{
-    background-image: url(./assignment_assets/message1.png);
+    background-image: src(./assignment_assets/message1.png);
     background-repeat: no-repeat;
 }
 #message7{
-    background-image: url(./assignment_assets/message.png);
+    background-image: src(./assignment_assets/message.png);
     background-repeat: no-repeat;
 }
 #pitty4{
     background-attachment: fixed;
-    background-image: url(./assignment_assets/pitty.jpg);
+    background-image: src(./assignment_assets/pitty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: invert(90%);
@@ -72,14 +72,14 @@
 
 #pitty5{
     background-attachment: fixed;
-    background-image: url(./assignment_assets/pitty.jpg);
+    background-image: src(./assignment_assets/pitty.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     filter: invert(100%);
     filter: blur(100%);
 }
 #underlight{
-    background-image: url(./assignment_assets/underlight.jpg);
+    background-image: src(./assignment_assets/underlight.jpg);
     height: 160vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -89,13 +89,13 @@
 }
 
 #data1{
-    background-image: url(./assignment_assets/data1.jpeg);
+    background-image: src(./assignment_assets/data1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     top: 20vh;
 }
 #data2{
-    background-image: url(./assignment_assets/data2.jpg);
+    background-image: src(./assignment_assets/data2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     top: 20vh;
