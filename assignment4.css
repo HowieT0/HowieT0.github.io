@@ -1,0 +1,102 @@
+
+
+#opening{
+    font-size: 6vw;
+    font-weight: bolder;
+}
+
+#pitty0{
+    background-attachment: fixed;
+    background-image: url(https://dl.dropboxusercontent.com/s/bjnzk4bqbmdjemh/pitty.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pitty1{
+    background-attachment: fixed;
+    background-image: url(https://dl.dropboxusercontent.com/s/bjnzk4bqbmdjemh/pitty.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pitty2{
+    background-attachment: fixed;
+    background-image: url(https://dl.dropboxusercontent.com/s/bjnzk4bqbmdjemh/pitty.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pitty3{
+    background-attachment: fixed;
+    background-image: url(https://dl.dropboxusercontent.com/s/bjnzk4bqbmdjemh/pitty.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#message1{
+    background-image: url(https://dl.dropboxusercontent.com/s/wv9o59youck00vo/message.png?dl=0);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+#message2{
+    background-image: url(https://dl.dropboxusercontent.com/s/wv9o59youck00vo/message.png?dl=0);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+#message3{
+    background-image: url(https://dl.dropboxusercontent.com/s/2c0po9lpxg0u5g2/message1.png?dl=0);
+    background-repeat: no-repeat;
+}
+#message4{
+    background-image: url(https://dl.dropboxusercontent.com/s/2c0po9lpxg0u5g2/message1.png?dl=0);
+    background-repeat: no-repeat;
+}
+#message5{
+    background-image: url(https://dl.dropboxusercontent.com/s/wv9o59youck00vo/message.png?dl=0);
+    background-repeat: no-repeat;
+}
+#message6{
+    background-image: url(https://dl.dropboxusercontent.com/s/2c0po9lpxg0u5g2/message1.png?dl=0);
+    background-repeat: no-repeat;
+}
+#message7{
+    background-image: url(https://dl.dropboxusercontent.com/s/wv9o59youck00vo/message.png?dl=0);
+    background-repeat: no-repeat;
+}
+#pitty4{
+    background-attachment: fixed;
+    background-image: url(https://dl.dropboxusercontent.com/s/bjnzk4bqbmdjemh/pitty.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: invert(90%);
+}
+
+#pitty5{
+    background-attachment: fixed;
+    background-image: url(https://dl.dropboxusercontent.com/s/bjnzk4bqbmdjemh/pitty.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: invert(100%);
+    filter: blur(100%);
+}
+#underlight{
+    background-image: url(https://dl.dropboxusercontent.com/s/odo5no4632ot48v/underlight.jpg?dl=0);
+    height: 160vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center bottom;
+}
+
+#data1{
+    background-image: url(https://dl.dropboxusercontent.com/s/3ahjij5ll91uvhy/data1.jpeg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20vh;
+}
+#data2{
+    background-image: url(https://dl.dropboxusercontent.com/s/8dpj9sw97v2qqcg/data2.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20vh;
+}
