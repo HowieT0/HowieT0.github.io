@@ -89,7 +89,7 @@
 }
 
 #data1{
-    background-image: src(HowieT0.github.io/assignment4_assets/data1.jpeg);
+    background-image: url(HowieT0.github.io/assignment4_assets/data1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     top: 20vh;
