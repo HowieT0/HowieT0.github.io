@@ -93,9 +93,10 @@
         <div class="col-3"></div>
     </div>
 
-    <div id="v1frame" style="height: 800vh;">
-        <div class="sticky-top">
-            <video id="video1" src="https://dl.dropboxusercontent.com/s/4tur8hlz2dhkyta/jumpdown.mp4?dl=0" style="width: 100vw;height: 100vh;background-color: black;"></video>
+    <div id="v1frame">
+        <div>
+            <video class="sticky-top" id="video1" src="https://dl.dropboxusercontent.com/s/4tur8hlz2dhkyta/jumpdown.mp4?dl=0" style="width: 100vw;height: 100vh;background-color: black;"></video>
+            <div style="height: 2500vh;"></div>
         </div>
     </div>
 
@@ -143,16 +144,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   
     <script>
-        $(function(){
-            var video1_pos = $("#video1").offset().top;
-            var video1_end = video1_pos + $("#v1frame").height();
-            $(window).scroll(function(){
-                var current_pos = $(window).scrollTop();
-                if(current_pos > video1_pos && current_pos < video1_end){
-                    $("#video1")[0].play();
-                }else{
-                    $("#video1")[0].pause();
-                }
+        $(function () {
+            var max_scroll = $(document).height() - $(window).height()*11;
+            $(window).scroll(function (e) {
+                var video = $('#video1').get(0),
+                    videoLength = video.duration,
+                    current_pos = $(document).scrollTop()-$(window).height()*4;
+                video.currentTime = videoLength * (current_pos / max_scroll);
             });
         });
     </script>
