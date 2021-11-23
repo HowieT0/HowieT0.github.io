@@ -1,0 +1,127 @@
+#opening{
+    background-image: url(https://dl.dropboxusercontent.com/s/uffcig94g8qj7rm/main2.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 1000px 1000px   rgba(0, 0, 0, 0.3);
+}
+
+#ching{
+    background-image: url(https://dl.dropboxusercontent.com/s/xdgy5w48l45zsih/japan.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#ching .row{
+    position: relative;
+    top: 40vh;
+    left:5vw;
+}
+
+#japan1{
+    background-image: url(https://dl.dropboxusercontent.com/s/d1lry2evonm9ytu/japan2.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#japan1 .row{
+    position: relative;
+    top: 40vh;
+    left:5vw;
+}
+
+#japan2{
+    background-image: url(https://dl.dropboxusercontent.com/s/ksyyjlm1rg4eumn/1940.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#japan2 .row{
+    position: relative;
+    top: 20vh;
+    left:55vw;
+}
+
+#street1{
+    background-image: url(https://dl.dropboxusercontent.com/s/e2wejkf5wu8jgjy/19402.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#street1 .row{
+    position: relative;
+    top: 50vh;
+    left:60vw;
+}
+
+#constructing{
+    background-image: url(https://dl.dropboxusercontent.com/s/v9xh1xott8lagxl/1980_high.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#constructing .row{
+    position: relative;
+    top: 50vh;
+    left:60vw;
+}
+
+#street2{
+    background-image: url(https://dl.dropboxusercontent.com/s/7bpdve72f060t7r/19403.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#street2 .row{
+    position: relative;
+    top: 50vh;
+    left:60vw;
+}
+
+#now1{
+    background-image: url(https://dl.dropboxusercontent.com/s/y6f35n6mrm1eix0/constructing_thestraittimes.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#now1 .row{
+    position: relative;
+    top: 50vh;
+    left:60vw;
+}
+
+#now2{
+    background-image: url(https://dl.dropboxusercontent.com/s/kjyr7ne7m9z173h/main.jpg?dl=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#now2 .row{
+    position: relative;
+    top: 30vh;
+    left:60vw;
+}
+
+#info{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#info .row{
+    position: relative;
+    top: 25vh;
+}
+
+.slideanimate{
+    visibility: hidden;
+}
+.slide{
+    animation: slide 1s 0s;
+    visibility: visible;
+}
+
+@keyframes slide{
+    0%{transform: translateY(10vh);opacity: 0;}
+    100%{transform: translateY(0vh);opacity: 1;}
+}
