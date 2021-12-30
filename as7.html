@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+
+    <style>
+        #div1 {
+            background-image: url(./as7a/sky.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .slideanimate {
+            visibility: hidden;
+        }
+
+        .slide {
+            animation: slide 1s 0s;
+            visibility: visible;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0vh);
+                opacity: 1;
+            }
+        }
+    </style>
+
+
+
+    <title>Keep Peace. No War.</title>
+</head>
+
+<body>
+    <div id="div1" class="container-fluid" style="height: 300vh;position: relative;">
+        <img id="b52" data-top="10" data-left="10" data-width="25" src="./as7a/b52.png"
+            style="position: absolute; width: 25%; top: 10%; left: 10%;">
+        <img id="bomb" data-top="15" data-left="15" data-width="10" src="./as7a/bomb.png"
+            style="position: absolute; width: 10%; top: 15%; left: 15%;">
+    </div>
+    <div>
+        <img id="result" class="slideanimate" src="./as7a/result.jfif" style="width: 100%;">
+     </div>
+
+     <div id="div2" class="container-fluid" style="height: 300vh;background-color: black;background-attachment: fixed;">
+        <img id="cloud" data-top="10" data-left="45" data-width="10" src="./as7a/cloud.png"
+        style="position: relative; width: 10%; top: 10%; left: 45%;z-index: 99;">
+    </div>
+
+    <div>
+        <img id="result" class="slideanimate" src="./as7a/realresult.jpg" style="width: 100%;">
+     </div>
+
+     <div id="end"  style="height: 100vh;background-color: black;">
+ 
+        <div style="padding-top: 50vh; text-align: center;color: white;">
+            <h1>Keep Peace. No Nuclear.</h1>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var div1_pos = $("#div1").offset().top;
+            var div1_h = $("#div1").height();
+            var winh = $(window).height();
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                var div1_scrolled = scrolled - div1_pos;
+
+                if (scrolled > 0 && scrolled < div1_pos + winh * 1.6) {
+                    $("#b52").css('left', ($("#b52").data('left') + div1_scrolled * 0.05) + '%');
+                    $("#b52").css('top', ($("#b52").data('top') + div1_scrolled * 0.04) + '%');
+                    $("#b52").css('width', ($("#b52").data('width') - div1_scrolled * 0.005) + '%');
+                    $("#bomb").css('left', ($("#bomb").data('left') + div1_scrolled * 0.025) + '%');
+                    $("#bomb").css('top', ($("#bomb").data('top') + div1_scrolled * 0.05) + '%');
+                    $("#bomb").css('width', ($("#bomb").data('width') + div1_scrolled * 0.008) + '%');
+                }
+                if (scrolled > div1_pos + winh * 1.6 && scrolled < div1_pos + div1_h*0.7) {
+                    $("#bomb").css('top', ($("#bomb").data('top') + div1_scrolled * 0.05) + '%');
+                }
+            });
+            var winh = $(window).height();
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                $(".slideanimate").each(function () {
+                    // .each是指抓取前項class當中的各個項目
+                    var objpos = $(this).offset().top;
+                    // this表示只針對碰到項目列中的該項目施加動作
+                    if (scrolled > objpos - winh) {
+                        $(this).addClass("slide");
+                    }
+                    else{
+                        $(this).removeClass("slide");
+                    }
+                });
+            });
+            $(window).scroll(function () {
+                var scrolled = $(window).scrollTop();
+                var div2_pos = $("#div2").offset().top;
+                var div2_scrolled = scrolled - div2_pos;
+                if (scrolled > div2_pos && scrolled < div2_pos + winh * 1.4) {
+                    $("#cloud").css('left', ($("#cloud").data('left') - div2_scrolled * 0.035) + '%');
+                    $("#cloud").css('top', ($("#cloud").data('top') + div2_scrolled * 0.035) + '%');
+                    $("#cloud").css('width', ($("#cloud").data('width') + div2_scrolled * 0.08) + '%');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
